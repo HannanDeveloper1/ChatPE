@@ -7,6 +7,6 @@ import connectDB from './src/lib/connectDB.js';
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => {
-  console.log(`Chatty server is running on port ${PORT}`);
+  console.log(`ChatPE server is running on port ${PORT}`);
   connectDB()
 });
